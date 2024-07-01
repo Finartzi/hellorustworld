@@ -2,12 +2,17 @@
 // https://doc.rust-lang.org/book/title-page.html
 // https://www.youtube.com/watch?v=BpPEoZW5IiY
 
+mod evenmoreplaying;
 mod moreplaying;
 
 fn main() {
     println!("Hello, world of Rust!");
     just_playing();
+    println!(" --- ");
     moreplaying::playmore();
+    println!(" --- ");
+    evenmoreplaying::playingevenmore();
+    println!(" --- ");
 }
 
 use std::mem::size_of_val;

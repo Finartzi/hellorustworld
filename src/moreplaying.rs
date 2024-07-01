@@ -1,9 +1,14 @@
 pub fn playmore() {
     boxing();
+    println!(" --- ");
     tuples();
+    println!(" --- ");
     mutable();
+    println!(" --- ");
     using_ref();
+    println!(" --- ");
     replace_part();
+    println!(" --- ");
 }
 
 fn boxing() {
